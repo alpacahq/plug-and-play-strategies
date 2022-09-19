@@ -8,3 +8,4 @@
 6. [Trade Crypto using ML - LSTM](https://alpaca.markets/learn/trade-crypto-using-ml/)
 7. [Dollar Cost Average](https://alpaca.markets/learn/building-a-dollar-cost-average-bot-with-the-alpaca-crypto-api/)
 8. [Pairs Trading Dogecoin and Shiba Inu](https://alpaca.markets/learn/pairs-trading-dogecoin-and-shiba-inu-with-alpacas-crypto-api/)
+9. [Momemtum Trading using Websocket](https://alpaca.markets/learn/advanced-live-websocket-crypto-data-streams-in-python/)
