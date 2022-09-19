@@ -1,4 +1,4 @@
-# Plug and Play Algo trading stratgies
+# Plug and Play Algo Trading Stratgies
 
 1. [Reddit Sentiment Analysis based trading](https://alpaca.markets/learn/reddit-sentiment-analysis-trading-strategy/)
 2. [Bollinger Bands and RSI](https://alpaca.markets/learn/algo-trading-bitcoin-using-bollinger-bands-and-rsi/)
