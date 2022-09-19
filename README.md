@@ -5,3 +5,4 @@
 3. [Scalping](https://alpaca.markets/learn/automated-crypto-scalping-with-alpaca/)
 4. [DEX to CEX Arbitrage](https://alpaca.markets/learn/arbitrage-on-decentralized-exchange-centralized-exchange/)
 5. [Twitter Sentiment Analysis](https://alpaca.markets/learn/algorithmic-trading-with-twitter-sentiment-analysis/)
+6. [Trade Crypto using ML - LSTM](https://alpaca.markets/learn/trade-crypto-using-ml/)
