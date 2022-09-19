@@ -6,3 +6,5 @@
 4. [DEX to CEX Arbitrage](https://alpaca.markets/learn/arbitrage-on-decentralized-exchange-centralized-exchange/)
 5. [Twitter Sentiment Analysis](https://alpaca.markets/learn/algorithmic-trading-with-twitter-sentiment-analysis/)
 6. [Trade Crypto using ML - LSTM](https://alpaca.markets/learn/trade-crypto-using-ml/)
+7. [Dollar Cost Average](https://alpaca.markets/learn/building-a-dollar-cost-average-bot-with-the-alpaca-crypto-api/)
+8. [Pairs Trading Dogecoin and Shiba Inu](https://alpaca.markets/learn/pairs-trading-dogecoin-and-shiba-inu-with-alpacas-crypto-api/)
