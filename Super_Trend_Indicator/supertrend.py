@@ -3,10 +3,9 @@ import talib
 import pandas as pd
 import numpy as np
 from config import ALPACA_KEY, ALPACA_SECRET
+from strategy_config import StrategyConfig
 
-PERIOD_START = "2020-11-01"
-PERIOD_END = "2022-01-01"
-TIMEFRAME = "1h"
+config = StrategyConfig("2020-11-01", "2022-01-01",  "1h")
 
 vbt.AlpacaData.set_custom_settings(
              client_config=dict(
@@ -15,14 +14,17 @@ vbt.AlpacaData.set_custom_settings(
              )
          )
 
+
 test_symbol = "GME"
 
-data = vbt.AlpacaData.fetch(symbols=["GME", "AAPL"], start=PERIOD_START, end=PERIOD_END, timeframe=TIMEFRAME, limit=3000)
+data = vbt.AlpacaData.fetch(symbols=["GME", "AAPL"], start=config.PERIOD_START, end=config.PERIOD_END, timeframe=config.TIMEFRAME, limit=3000)
 
 open = data.get("Open")
 high = data.get("High")
 low = data.get("Low")
 close = data.get("Close")
+
+
 
 def get_med_price(high, low):
     return (high + low) / 2
@@ -98,6 +100,9 @@ SuperTrend = vbt.IF(
 
     
 st = SuperTrend.run(high, low, close)
+
+entries = (~st.superl.isnull()).vbt.signals.fshift()
+exits = (~st.supers.isnull()).vbt.signals.fshift()
 
 pf = vbt.Portfolio.from_signals(
      close=close, 
